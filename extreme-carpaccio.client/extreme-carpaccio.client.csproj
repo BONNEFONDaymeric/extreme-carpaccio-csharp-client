@@ -53,7 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BillCalc.cs" />
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="CountryExisting.cs" />
     <Compile Include="Feedback.cs" />
     <Compile Include="IndexModule.cs" />
     <Compile Include="Bill.cs" />

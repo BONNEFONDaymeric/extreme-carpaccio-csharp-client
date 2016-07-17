@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
+
 namespace xCarpaccio.client
 {
-    class BillCalc
+    public class BillCalc
     {
         public Decimal Result { get; set; }
         public BillCalc(Order order)
